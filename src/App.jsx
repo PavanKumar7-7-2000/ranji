@@ -14,7 +14,6 @@ function App() {
   // }, []);
   const setter = () => {
     setam(localStorage.getItem("name"));
-    console.log(0);
   };
   return (
     <>
