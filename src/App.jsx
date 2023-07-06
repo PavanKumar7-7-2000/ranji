@@ -1,5 +1,5 @@
 import "./App.css";
-//import Numberz from "./Components/numberzmod/Numberzod";
+
 import Imager from "./Components/imager/Imager";
 import Login from "./Components/login/Logins";
 import React, { useState } from "react";
