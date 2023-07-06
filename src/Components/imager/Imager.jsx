@@ -143,7 +143,6 @@ function Imager() {
                 <img src={tour[3].img} height="50px" width="52px" alt="" />
               ) : (
                 <></>
-                // <img src={tour[2].img} height="50px" width="52px" alt="" />
               )}
             </div>
           </Link>
