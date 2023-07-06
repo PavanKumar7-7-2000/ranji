@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<Login setter={setter} />} /> */}
+        <Route path="/" element={<Login setter={setter} />} />
         <Route path="/" element={am ? <Imager /> : <Login setter={setter} />} />
         <Route path="/login" element={<Login setter={setter} />} />
       </Routes>
