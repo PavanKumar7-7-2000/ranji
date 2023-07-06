@@ -8,7 +8,7 @@ function Logins({ setter }) {
     localStorage.setItem("name", state);
 
     setter();
-    navi("/");
+    navi("/home");
   };
   return (
     <div className="login">
