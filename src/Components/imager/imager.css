@@ -99,6 +99,7 @@
   height: 100%;
   overflow-y: scroll;
   box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(18, 12, 200, 0.7);
 }
 
 .profilebox {
@@ -109,6 +110,7 @@
   border: aqua 2px solid;
   box-shadow: 0px 0px 10px rgba(18, 12, 200, 0.7);
   background-image: radial-gradient(rgb(221, 240, 10), rgb(240, 10, 159));
+  overflow: hidden;
 }
 .profilebox:hover {
   background-color: rgb(221, 240, 10);
@@ -288,7 +290,7 @@ img {
 .middle-contains {
   height: 38%;
   margin-block: 1rem;
-  border: rgba(255, 255, 255, 0.8) 2px solid;
+  /* border: rgba(255, 255, 255, 0.8) 2px solid; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,6 +305,7 @@ img {
     transparent,
     red
   );
+  box-shadow: 0px 0px 10px rgba(18, 12, 200, 0.7);
 }
 .middle-mains {
   flex: 7.5;
@@ -321,6 +324,17 @@ img {
   border-radius: 3rem;
   box-shadow: 0px 0px 10px rgba(18, 12, 200, 0.7);
   transition: all 0.8s linear;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to top right,
+    rgb(221, 42, 14),
+    rgb(7, 248, 164),
+    rgb(255, 0, 195),
+    rgb(195, 255, 0)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .right-bar:not(:last-child) {
   margin-bottom: 1rem;

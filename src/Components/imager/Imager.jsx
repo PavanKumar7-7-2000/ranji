@@ -138,7 +138,9 @@ function Imager() {
           </div>
 
           <Link to="/login">
-            <div className="profilebox"></div>
+            <div className="profilebox">
+              <img src={tour[10].img} height="50px" width="52px" alt="" />
+            </div>
           </Link>
         </div>
         <div className="maincontainer">
@@ -242,12 +244,47 @@ function Imager() {
             </div>
           </div>
           <div className="right">
-            <div className="right-bar"></div>
-            <div className="right-bar"></div>
-            <div className="right-bar"></div>
-            <div className="right-bar"></div> <div className="right-bar"></div>
-            <div className="right-bar"></div>
-            <div className="right-bar"></div>
+            <div className="right-bar">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,{" "}
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>{" "}
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
+            <div className="right-bar">
+              {" "}
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              <hr />
+              cumque? Aspernatur temporibus perspiciatis vel placeat odit
+            </div>
           </div>
         </div>
       </div>{" "}
