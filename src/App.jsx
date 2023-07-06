@@ -25,6 +25,7 @@ function App() {
         />
         <Route path="/login" element={<Login setter={setter} />} />
       </Routes>
+      <Imager />
     </>
   );
 }
