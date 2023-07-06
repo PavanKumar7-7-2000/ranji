@@ -140,7 +140,7 @@ function Imager() {
           <Link to="/login">
             <div className="profilebox">
               {tour ? (
-                <img src={tour[3].img} height="50px" width="52px" alt="" />
+                <img src={tour[1].img} height="50px" width="52px" alt="" />
               ) : (
                 <></>
               )}
