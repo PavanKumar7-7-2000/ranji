@@ -48,7 +48,7 @@
   margin-top: 5rem;
   border-radius: 1rem;
   width: 100%;
-  flex-direction: column;
+
   gap: 1rem;
   /* padding: 0.4rem; */
 }
@@ -127,13 +127,13 @@
   );
   width: 30%;
   font-weight: 1000;
-  /* text-align: center; */
+  text-align: left;
   transition: all 1s linear;
   border: rgba(255, 255, 255, 0.8) 2px solid;
   box-shadow: 0px 0px 10px rgba(18, 12, 200, 0.7);
 }
 ::placeholder {
-  color: #f51414;
+  color: #0db97d;
   text-align: left;
 
   transition: all 1s linear;
