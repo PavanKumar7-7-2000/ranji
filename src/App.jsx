@@ -18,15 +18,15 @@ function App() {
   };
   return (
     <>
-      {/* <Routes>
+      <Routes>
         <Route
           path="/home"
           element={am ? <Imager /> : <Login setter={setter} />}
         />
         <Route path="/login" element={<Login setter={setter} />} />
         <Imager />
-      </Routes> */}
-      <Imager />
+      </Routes>
+      <login />
     </>
   );
 }
