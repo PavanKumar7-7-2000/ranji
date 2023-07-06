@@ -145,7 +145,7 @@ function Imager() {
         </div>
         <div className="maincontainer">
           {" "}
-          {/* <div className="middle-contain"> */}
+          {/* <div className="middle-contain> */}
           <div className="left-main">
             <div className="left">
               <div className="lefttop">
