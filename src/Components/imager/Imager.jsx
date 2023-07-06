@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 // import axio from "../../public/land.jpg";
 import "./imager.css";
-// import logo from "../../public/land.jpg";
+
 function Imager() {
   const [tour, settour] = useState([
     {
