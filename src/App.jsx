@@ -18,6 +18,7 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Login />} />
         <Route
           path="/home"
           element={am ? <Imager /> : <Login setter={setter} />}
