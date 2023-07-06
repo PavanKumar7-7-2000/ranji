@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 // import axio from "../../public/land.jpg";
 import "./imager.css";
@@ -135,7 +136,10 @@ function Imager() {
             <div className="profileboxs"></div>{" "}
             <div className="profileboxs"></div>
           </div>
-          <div className="profilebox"></div>
+
+          <Link to="/login">
+            <div className="profilebox"></div>
+          </Link>
         </div>
         <div className="maincontainer">
           {" "}

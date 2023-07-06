@@ -237,7 +237,7 @@ img {
   margin: 0.2rem;
   text-align: center;
   color: aliceblue;
-  flex-direction: column;
+
   display: flex;
   gap: 1.2rem;
   background-image: linear-gradient(
@@ -415,4 +415,35 @@ img {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+@media all and (max-width: 800px) {
+  .threecontain {
+    flex-direction: column;
+  }
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-views {
+    display: flex;
+    flex-direction: column;
+  }
+  .pro-boxes {
+    padding-left: 0px;
+    display: none;
+  }
+  .search:hover::placeholder {
+    transform: translateX(5rem);
+  }
+  .topbar {
+    display: flex;
+
+    position: absolute;
+    height: auto;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+  .search {
+    width: 66%;
+  }
 }
